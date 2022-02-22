@@ -28,3 +28,11 @@ expected output
 >>> ALI's account. Balance: 13500
 >>> ABU's account. Balance: 9500
 >>> AHMAD's account. Balance: 21000
+
+Aturcara ini menunjukkan kefahaman untuk membina class di dalam bahasa Python. Cara mudah ada simulasi transaksi perbankan untuk asas bank in wang (deposit) & pengeleuaran wang (withdraw). Class Account dimulakan dengan fungsi initial iaitu setting awal pembolehubah pengguna seperti nama, nokp as id, no akaun (jika ada) dan nama (pemegang akaun bank). Manakala function deposit adalah untuk setting baki awal yang ditambah dengan amaun yang didepositkan. Function withdraw merujukan fungsi untuk urus pengeluaran iaitu baki terkini selepas ditolak dengan amount pengeluaran.  Akhir sekali adalah fungsi string (str) iaitu fungsi mudah python untuk menghasilkan output di dalam python (mudah read dan write untuk member di dalam class).
+
+Simulasi untuk memanggil class account adalah dengan  mengistiharkan tiga pembolehubah instance yang memanggil class account iaitu a1,a2 dan a3. Contoh a1 = Account('7898887777','ALI' ,20000). Setelah Instance a1,a2 dan a3 di panggil daripada class account, method atau fungsi di dalam class account boleh digunakan (deposit,withdraw, str). contoh di atas a1.withdraw(4000)...etc.
+
+Output adalah seperti yang di atas
+
+Terima kasih.
