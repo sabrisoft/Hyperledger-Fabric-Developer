@@ -19,9 +19,9 @@ class Account:
 expected output
 
 >>> from classes import Account
->>> a1 = Account('7898887777','ALI' ,20000)
->>> a2 = Account('8088777777',  'ABU', 20000)
->>> a3 = Account('6799909999',  'AHMAD', 20000)
+>>> a1 = Account('7898887777','ALI',20000)
+>>> a2 = Account('8088777777','ABU',20000)
+>>> a3 = Account('6799909999','AHMAD',20000)
 >>> a1.deposit(1000)
 >>> a1.withdraw(4000)
 >>> a3.deposit(1000)
