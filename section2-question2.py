@@ -27,9 +27,20 @@ class DevAccount(Account):
   def dotransfer(self, amount, name):
         self.balance = self.balance - amount
         name.balance = name.balance + amount 
-        return name.balance()
+        return name.balance
         
-a1 = DevAccount('7898887777','ALI',20000)
-a2 = DevAccount('7898887778','ABU',30000)
-print(a1.getBalance())
-print(a2.getBalance())
+
+#----FIRST ACCOUNT SET THE ACCOUNT BALANCE (abc)---
+abc = DevAccount("7898887777","abc",0)
+abc.deposit(1000)
+
+#----SECOND ACCOUNT SET THE ACCOUNT BALANCE (mat)---
+mat = DevAccount("7898887778","mat",159)
+
+#----TRANSFER MONEY FROM MAT TO ABC---
+mat.dotransfer(11, abc)
+
+#"----CHECK ACCOUNT HOLDER BALANCE!!---
+print(abc.getBalance())
+print("---------------")
+print(mat.getBalance())
